@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-26T18:38:18.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.686 YaBrowser/23.9.5.686 Yowser/2.5 Safari/537.36" etag="6-cWc6d06Z8mUxeGX7Cx" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-26T18:44:26.326Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.686 YaBrowser/23.9.5.686 Yowser/2.5 Safari/537.36" etag="mogItT5DKX7r3RzOIiuK" version="22.1.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="710" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="878" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -344,13 +344,14 @@
         <mxCell id="Hqmv893eS7sad_yPtx1s-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Hqmv893eS7sad_yPtx1s-105" target="Hqmv893eS7sad_yPtx1s-110">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Hqmv893eS7sad_yPtx1s-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Hqmv893eS7sad_yPtx1s-105">
+        <mxCell id="Hqmv893eS7sad_yPtx1s-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="2303.174758184524" as="targetPoint" />
+            <mxPoint x="245.17999999999998" y="2280" as="targetPoint" />
+            <mxPoint x="326.59999999999997" y="1835" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="560" y="1845" />
-              <mxPoint x="560" y="2260" />
-              <mxPoint x="230" y="2260" />
+              <mxPoint x="555.3199999999999" y="1835" />
+              <mxPoint x="555.3199999999999" y="2250" />
+              <mxPoint x="245.31999999999996" y="2250" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -463,6 +464,18 @@
         </mxCell>
         <mxCell id="Hqmv893eS7sad_yPtx1s-132" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;matr[i][j].time = rp;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;matrix[i][j].event = &quot;р-п&quot;);&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="370" y="2120" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqmv893eS7sad_yPtx1s-143" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;С&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="2280" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqmv893eS7sad_yPtx1s-146" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Hqmv893eS7sad_yPtx1s-144" target="Hqmv893eS7sad_yPtx1s-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqmv893eS7sad_yPtx1s-144" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;С&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="630" y="1200" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqmv893eS7sad_yPtx1s-145" value="Вывод итоговой матрицы matr" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="522.5" y="1280" width="265" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
