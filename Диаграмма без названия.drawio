@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T07:38:16.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2471 YaBrowser/23.11.0.2471 Yowser/2.5 Safari/537.36" etag="4VvI8B0lrO7MnKAyghrU" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T07:39:52.729Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2471 YaBrowser/23.11.0.2471 Yowser/2.5 Safari/537.36" etag="NV8bbi2M_5-hU-QrI8NY" version="22.1.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1243" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1057,11 +1057,11 @@
         <mxCell id="G4KadfX6KPJVV7M6jvxg-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G4KadfX6KPJVV7M6jvxg-92" target="G4KadfX6KPJVV7M6jvxg-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G4KadfX6KPJVV7M6jvxg-92" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;teta = ((P - Cx * (p * V * V / 2) * S ) * 57.3) / (m * g);&lt;br&gt;return (57.3 * (H2 - H1)) / (V * teta);&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="190.25999999999996" y="7800" width="229.91" height="30" as="geometry" />
+        <mxCell id="G4KadfX6KPJVV7M6jvxg-92" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;k = (V2 - V1) / (H2 - H1);&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;sin_teta = (P - Cx * (p * V * V / 2) * S) / (m * (k * V + g));&lt;br&gt;return (1 / (k * sin_teta)) * log(V2 / V1);&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190.26" y="7800" width="229.91" height="60" as="geometry" />
         </mxCell>
         <mxCell id="G4KadfX6KPJVV7M6jvxg-93" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="245.22" y="7870" width="120" height="30" as="geometry" />
+          <mxGeometry x="244.4" y="7890" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="G4KadfX6KPJVV7M6jvxg-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G4KadfX6KPJVV7M6jvxg-95" target="G4KadfX6KPJVV7M6jvxg-112">
           <mxGeometry relative="1" as="geometry" />
