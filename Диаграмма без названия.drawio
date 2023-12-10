@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T05:50:59.334Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2471 YaBrowser/23.11.0.2471 Yowser/2.5 Safari/537.36" etag="nOzGsxbEEUMzsSepAV1-" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T06:17:25.017Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.2471 YaBrowser/23.11.0.2471 Yowser/2.5 Safari/537.36" etag="zfNF1BOZxj7_jLbvHaUy" version="22.1.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2131" dy="1351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -802,6 +802,9 @@
         </mxCell>
         <mxCell id="-MrWlAkrLKYYtXTXgUd7-351" value="&amp;nbsp;// Функция вывода матрицы структур&lt;br&gt;printMatrix(Data data_matrix, int n)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="491.32" y="4190" width="55.65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MrWlAkrLKYYtXTXgUd7-358" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;ro = func_roh(h)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="317.2100000000001" y="2420" width="97.32" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
